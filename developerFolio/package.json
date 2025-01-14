@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,15 +20,17 @@
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+ 
+    "scripts": {
+  "predeploy": "npm run build",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "deploy": "gh-pages -b master -d build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+  "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+
   },
   "eslintConfig": {
     "extends": "react-app"
