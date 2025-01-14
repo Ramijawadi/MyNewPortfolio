@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji(" with ❤️ by Rami Jawadi")}
-          {"  2024 All rights reserved. Privacy & Terms"}
+          {"  2025 All rights reserved. Privacy & Terms"}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {" "}
@@ -19,9 +19,7 @@ export default function Footer() {
             href="https://github.com/Ramijawadi"
             target="_blank"
             rel="noreferrer"
-          >
-          
-          </a>
+          ></a>
         </p>
       </div>
     </Fade>

@@ -1,30 +1,24 @@
-
-
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import nestjs from '../src/assets/images/nestjs.png'
-import nextjs from '../src/assets/images/next.png'
-import html from '../src/assets/images/html5.svg'
-import css from '../src/assets/images/css.svg'
+import nestjs from "../src/assets/images/nestjs.png";
+import nextjs from "../src/assets/images/next.png";
+import html from "../src/assets/images/html5.svg";
+import css from "../src/assets/images/css.svg";
 
-import angular from '../src/assets/images/angular.svg'
-import flutter from '../src/assets/images/flutter.svg'
-import node from '../src/assets/images/nodejs.svg'
-import mysql from '../src/assets/images/mysql.svg'
-import mongodb from '../src/assets/images/mongodb-wordmark.svg'
+import angular from "../src/assets/images/angular.svg";
+import flutter from "../src/assets/images/flutter.svg";
+import node from "../src/assets/images/nodejs.svg";
+import mysql from "../src/assets/images/mysql.svg";
+import mongodb from "../src/assets/images/mongodb-wordmark.svg";
 
-import JavaScript from '../src/assets/images/javascript.svg'
-import React from '../src/assets/images/react.svg'
-import firebase from '../src/assets/images/firebase.svg'
-import expressjs from '../src/assets/images/expressjs.svg'
-
-
-
-
+import JavaScript from "../src/assets/images/javascript.svg";
+import React from "../src/assets/images/react.svg";
+import firebase from "../src/assets/images/firebase.svg";
+import expressjs from "../src/assets/images/expressjs.svg";
 
 // Splash Screen
 
@@ -57,8 +51,7 @@ const socialMediaLinks = {
   github: "https://github.com/Ramijawadi",
   linkedin: "https://www.linkedin.com/in/jawadi-rami/",
   gmail: "ramijawadi104@gmail.com",
-  facebook: "https://www.facebook.com/choukou.aljawadi/",
-
+  facebook: "https://www.facebook.com/choukou.aljawadi/"
 };
 
 // Skills Section
@@ -88,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Css3",
       fontAwesomeClassname: css
     },
-   
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: JavaScript
@@ -103,7 +96,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Nextjs",
-      fontAwesomeClassname: nextjs,
+      fontAwesomeClassname: nextjs
     },
     {
       skillName: "Nodejs",
@@ -113,15 +106,15 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Expressjs",
       fontAwesomeClassname: expressjs
     },
-  {
-    skillName: "Nestjs",
-    fontAwesomeClassname: nestjs,
-  },
-  {
-    skillName: "Flutter",
-    fontAwesomeClassname: flutter,
-  },
- 
+    {
+      skillName: "Nestjs",
+      fontAwesomeClassname: nestjs
+    },
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: flutter
+    },
+
     {
       skillName: "MongoDb",
       fontAwesomeClassname: mongodb
@@ -130,14 +123,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Mysql",
       fontAwesomeClassname: mysql
     },
-   
-   
+
     {
       skillName: "Firebase",
       fontAwesomeClassname: firebase
-    },
-  
-   
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -151,7 +141,7 @@ const educationInfo = {
       schoolName: "Monastir University",
       logo: require("./assets/images/fsm.png"),
       subHeader: "Licence of Science in Computer Science",
-      duration: "September 2013 - April 2019",
+      duration: "September 2013 - Juin 2018"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -162,7 +152,7 @@ const educationInfo = {
       schoolName: "Sidi Bouzid - Tunisie high school",
       logo: require("./assets/images/lyceee.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2010 - April 2011",
+      duration: "September 2012 - juin 2013"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web developer, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -180,15 +170,15 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Mobile",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -200,11 +190,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "FrontEnd Web Developer (Angular)",
+      role: "FrontEnd Web Developer (Reactjs)",
+
       company: "Bansco Consulting",
       // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "june 2023 – june 2024",
-      location : "Tunisie - Sousse "
+      date: "Jan 2021 – Dec 2022",
+      location: "Tunisie - Sousse "
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -214,24 +205,22 @@ const workExperiences = {
     {
       role: "FrontEnd Web Developer (Full stack js)",
       company: "Tanit",
-      location : "Tunisie - Monastir ",
+      location: "Tunisie - Monastir",
       // companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2022 – May 2023",
+      date: "Jan 2023 – Oct 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "FrontEnd Web Developer (Reactjs)",
+      // role: "FrontEnd Web Developer (Reactjs)",
+      role: "FrontEnd Web Developer (Angular)",
       company: "BonGest",
-      location : "Tunisie - Monastir",
+      location: "Tunisie - Monastir",
       // companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2021 – Sep 2022",
+      date: "Mar 2024 – Sep 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -341,33 +330,32 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "first project",
+      url: "https://dashboard-react-tau-two.vercel.app/",
+      title: "Dashboard Panel",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A robust and intuitive admin panel built with ReactJS  designed for efficient management and monitoring of application data. The panel includes features like user and subscription management, customizable dashboards, and real-time updates."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "seconde project",
+      url: "https://ramijawadi.netlify.app/",
+      title: "Personal Folio",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "With Reactjs  library I builded an awesome User Interface Folio containing nested Personal Projets hosted online."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "seconde project",
+      url: "https://wael-academy-landing.vercel.app/",
+      title: "Education Academy",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Thanks to Reactjs + vite I developed a dynamic and interactive landing page Academy containing Some features for The Academy offers."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "seconde project",
+      url: "https://deltacloud.vercel.app/",
+      title: "Your Cloud App",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Welcome on  DELTA  Your cloud  platform hosted on a cloud service (such as Vercel or AWS), designed to provide scalable and efficient web hosting, continuous integration, and deployment (CI/CD) high security for your application."
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Talks Sections
 
@@ -387,8 +375,6 @@ const talkSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-
 
 // Podcast Section
 
@@ -449,5 +435,3 @@ export {
   resumeSection,
   achievementSection
 };
-
-
