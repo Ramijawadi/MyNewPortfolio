@@ -352,6 +352,12 @@ const blogSection = {
       title: "Your Cloud App",
       description:
         "Welcome on  DELTA  Your cloud  platform hosted on a cloud service (such as Vercel or AWS), designed to provide scalable and efficient web hosting, continuous integration, and deployment (CI/CD) high security for your application."
+    },
+    {
+      url: "https://workmanager-three.vercel.app/",
+      title: "EmployMe Manager",
+      description:
+        "Welcome on EmployMe Manager  platform  Create by Angular in order to  manage employees, designed to provide scalable and efficient CRUD functionalites."
     }
   ],
   display: true // Set false to hide this section, defaults to true
