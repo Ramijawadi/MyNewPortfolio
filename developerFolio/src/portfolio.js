@@ -342,7 +342,7 @@ const blogSection = {
         "With Reactjs  library I builded an awesome User Interface Folio containing nested Personal Projets hosted online."
     },
     {
-      url: "https://wael-academy-landing.vercel.app/",
+      url: "https://www.waelacademy.com/",
       title: "Education Academy",
       description:
         "Thanks to Reactjs + vite I developed a dynamic and interactive landing page Academy containing Some features for The Academy offers."
@@ -358,6 +358,12 @@ const blogSection = {
       title: "EmployMe Manager",
       description:
         "Welcome on EmployMe Manager  platform  Create by Angular in order to  manage employees, designed to provide scalable and efficient CRUD functionalites."
+    },
+    {
+      url: "https://mydashboard-umber.vercel.app",
+      title: "Education Admin Panel",
+      description:
+        "Welcome on Admin Education  platform  Create by Reactjs in order to  manage Students, teachers , parents , events and other things  :  designed to provide scalable and efficient  functionalites."
     }
   ],
   display: true // Set false to hide this section, defaults to true
