@@ -35,13 +35,14 @@
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
-    font-size: 0.938rem;
-    padding: 12px 18px;
-    margin-right: 0px;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin: 0.5px;
   }
 }
 @media (max-width: 320px) {
   .main-button {
     font-size: 0.75rem;
+    
   }
 }
