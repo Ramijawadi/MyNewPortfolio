@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: React
     },
     {
-      skillName: "Angularjs",
+      skillName: "Angular",
       fontAwesomeClassname: angular
     },
     {
