@@ -20,11 +20,27 @@
   background-color: $buttonColor !important;
 }
 
-.header {
-  background-color: $lightBackground1;
-  max-width: 100%;
-  padding: 15px 20px;
+// .header {
+//   background-color: $lightBackground1;
+//   max-width: 100%;
+//   padding: 15px 20px;
+//   margin: 0px auto;
+
+// }
+
+header {
+    padding: 15px 20px;
   margin: 0px auto;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 1000; /* So it stays above other content */
+  // display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.8); /* Initial semi-transparent */
+  backdrop-filter: blur(8px); /* Optional: smooth glassy look */
+  transition: background 0.3s ease; /* Smooth transition */
 }
 
 .header ul {
@@ -48,6 +64,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+  border-radius: 10px;
 }
 
 .header .logo {
@@ -158,6 +175,8 @@
 }
 
 /* 48em = 768px */
+
+
 
 @media (min-width: 48em) {
   .header li {
